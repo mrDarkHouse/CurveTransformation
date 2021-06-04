@@ -1,3 +1,8 @@
+package project.Graphics;
+
+import project.Lines.BezierCurve;
+import project.Main;
+
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
@@ -47,7 +52,7 @@ public class ObjectController extends DrawableObject implements MouseListener, M
         if(!editing) return;
         for (int i = 0; i < object.controlPoints.size(); i++) {
             Point point = Main.main.converter.r2s(new MyPoint(object.controlPoints.get(i).x, object.controlPoints.get(i).y));
-//            double k = Main.main.converter.getZoom();
+//            double k = java.Main.main.converter.getZoom();
             g2.drawRect(
                     point.x - resizeBoxSize,
                     point.y - resizeBoxSize,

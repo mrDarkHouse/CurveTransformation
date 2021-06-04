@@ -1,3 +1,11 @@
+package project;
+
+import project.Graphics.ObjectController;
+import project.Graphics.ScreenController;
+import project.Lines.BrezLine;
+import project.Lines.CoordLine;
+import project.Graphics.ScreenConverter;
+
 import javax.swing.*;
 import javax.swing.border.LineBorder;
 import java.awt.*;
@@ -7,6 +15,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Timer;
 import java.util.TimerTask;
+
 
 public class Main{
     public final static int FRAME_WIDTH = 1300;

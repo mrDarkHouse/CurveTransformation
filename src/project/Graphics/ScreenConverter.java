@@ -1,3 +1,5 @@
+package project.Graphics;
+
 import java.awt.*;
 
 public class ScreenConverter {

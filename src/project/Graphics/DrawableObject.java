@@ -1,11 +1,14 @@
+package project.Graphics;
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
+import project.Main;
 
 public abstract class DrawableObject extends JComponent {
 
     protected Color color;
-    protected ArrayList<Point> path;
+    public ArrayList<Point> path;
 
     public DrawableObject(Color color) {
         this();

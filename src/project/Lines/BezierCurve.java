@@ -1,7 +1,13 @@
+package project.Lines;
+
+
+import project.Graphics.MyPoint;
+import project.Main;
 import java.awt.*;
 import java.util.ArrayList;
+import project.Graphics.DrawableObject;
 
-public class BezierCurve extends DrawableObject{
+public class BezierCurve extends DrawableObject {
 
     public ArrayList<Point> controlPoints;
 
@@ -10,7 +16,7 @@ public class BezierCurve extends DrawableObject{
     }
 
     @Override
-    protected void draw(Graphics2D g2) {
+    public void draw(Graphics2D g2) {
         float step = 0.02f;
 
         ArrayList<Point> res = new ArrayList<>();

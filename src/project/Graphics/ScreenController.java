@@ -1,5 +1,7 @@
+package project.Graphics;
+
 import javax.swing.event.MouseInputListener;
-import java.awt.*;
+import project.Main;
 import java.awt.event.*;
 
 public class ScreenController implements MouseMotionListener, MouseInputListener, MouseWheelListener, KeyListener{

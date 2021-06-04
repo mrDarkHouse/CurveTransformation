@@ -1,4 +1,5 @@
-import java.awt.*;
+package project.Graphics;
+
 import java.awt.geom.Point2D;
 
 public class MyPoint extends Point2D {

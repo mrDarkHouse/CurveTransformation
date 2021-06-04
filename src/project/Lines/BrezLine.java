@@ -1,3 +1,5 @@
+package project.Lines;
+
 import java.awt.*;
 
 public class BrezLine extends Line {

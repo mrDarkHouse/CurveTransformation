@@ -1,7 +1,13 @@
+package project.Lines;
+
+import project.Graphics.DrawableObject;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class CoordLine extends DrawableObject{
+import project.Graphics.ScreenConverter;
+
+public class CoordLine extends DrawableObject {
 
     private ScreenConverter converter;
     private JPanel panel;

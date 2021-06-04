@@ -1,3 +1,7 @@
+package project.Lines;
+
+import project.Graphics.DrawableObject;
+
 import java.awt.*;
 
 public abstract class Line extends DrawableObject {
